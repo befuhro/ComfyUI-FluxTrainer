@@ -52,3 +52,10 @@ Experimental support for LyCORIS training has been added as well, using code fro
 
 ![Screenshot 2024-08-21 020207](https://github.com/user-attachments/assets/1686b180-90c8-41d0-8c96-63e76ebc2475)
 
+## Models installation
+```bash
+ComfyUI/models/unet/flux1-dev-fp8.safetensors # https://huggingface.co/Kijai/flux-fp8/resolve/main/flux1-dev-fp8.safetensors
+ComfyUI/models/clip/clip_l.safetensors # https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/clip_l.safetensors
+ComfyUI/models/clip/t5\google_t5-v1_1-xxl_encoderonly-fp8_e4m3fn.safetensors # https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/t5xxl_fp8_e4m3fn.safetensors
+ComfyUI/models/vae/flux_vae.safetensors # https://huggingface.co/StableDiffusionVN/Flux/resolve/main/Vae/flux_vae.safetensors
+```
